@@ -8,6 +8,7 @@
    background-color: white;
    text-transform: inherit;
    padding: 2%;
+  cursor:pointer;
 }
 
 .container{
@@ -51,7 +52,4 @@
     margin-top: 1%;
     padding: var(--field-padding);
   }
-  .label {
-    left: var(--field-padding);
-    width: calc(100% - (var(--field-padding) * 2));
-  }
+
