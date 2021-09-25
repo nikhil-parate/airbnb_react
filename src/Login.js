@@ -121,7 +121,7 @@ class demo extends Component {
             }
             onBlur={this.handleBlur}
             /> </ label >  <br />
-            <input type = "submit" style={{marginLeft:"300px", background:"#4cbb17", color: "white"}}
+            <input type = "submit" className="button" 
             value = "Login" />
             </form> 
             </>
