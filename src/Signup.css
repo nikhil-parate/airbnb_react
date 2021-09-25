@@ -1,11 +1,13 @@
 
- .container > .app-wrapper> .form-wrapper> .submit{
+ .submit{
+     float: right;
     margin-top: 2%;
    color:purple;
    border: 1px solid lightgray;
    border-radius: 999px;
    background-color: white;
    text-transform: inherit;
+   padding: 2%;
 }
 
 .container{
@@ -13,3 +15,47 @@
     margin-bottom: 54vh;
     margin-left: 40%;
 }
+
+  .label {
+    font-size: 14px;
+    position: relative;
+  }
+  .input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 14px;
+    margin-bottom: 2%;
+  }  
+ .input[type=text] {
+     margin-left: 10%;
+ }
+ .input[type = email] {
+     margin-left: 16%;
+ }
+ .input[type = number] {
+    margin-left: 15%;
+}
+.input[type = password]{
+    margin-left: 11%;
+}
+  .form-wrapper {
+    --field-padding: 12px;
+    justify-content: space-between;
+    background-color: lightgrey;
+    margin-right: 50%;
+  }
+  .input {
+    margin-top: 1%;
+    padding: var(--field-padding);
+  }
+  .label {
+    left: var(--field-padding);
+    width: calc(100% - (var(--field-padding) * 2));
+  }
