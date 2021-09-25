@@ -10,7 +10,7 @@ const SignupForm = () =>{
     const [values, setValues] =  useState({
         fullname:"",
         email:"",
-        phone:0,
+        phone:91,
         password:""
     });
     const handleSubmit = (event) => {
