@@ -5,7 +5,7 @@ import { withRouter } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import './Login.css';
 toast.configure();
 const API_URL1 =  'https://airbnbnode.herokuapp.com/login';
 
@@ -97,7 +97,7 @@ class demo extends Component {
     
     render() {
         return ( <>
-              <form  onSubmit={this.submit}>
+              <form  className="form" onSubmit={this.submit}>
                   <br />< br />
               <label style={{paddingRight: "20px"}}> Email <input ref = {this.myRef1} 
             type = "text" required style={{marginLeft:"44px"}}
