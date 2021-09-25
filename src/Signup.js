@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {Button} from "@material-ui/core";
+//import {Button} from "@material-ui/core";
 import './Signup.css';
 import axios from 'axios';
 import { toast } from 'react-toastify';
@@ -75,8 +75,8 @@ const SignupForm = () =>{
               <input className="input" type="password" name="password" value={values.password} onChange={handleChange}></input>
           </div>
           
-          <div>
-              <Button className="submit" onClick={handleSubmit}>Sign Up</Button>
+          <div >
+              <button className="submit" onClick={handleSubmit}>Sign Up</button>
           </div>
           </form>
         </div>
