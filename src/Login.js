@@ -99,7 +99,7 @@ class demo extends Component {
         return ( <>
               <form  className="form" onSubmit={this.submit}>
                   <br />< br />
-              <label style={{paddingRight: "20px"}}> Email <input ref = {this.myRef1} 
+              <label className="label" style={{paddingRight: "20px"}}> Email <input className="input" ref = {this.myRef1} 
             type = "text" required style={{marginLeft:"44px"}}
             value = {this.state.email.value}
             name = "email"
@@ -108,7 +108,7 @@ class demo extends Component {
             }
             onBlur={this.handleBlur}
             /> </ label >   <br />
-            <label > Password <input ref = {
+            <label className="label"> Password <input className="input" ref = {
                 this.myRef2
             }
             type = "text" required style={{marginLeft:"20px"}}
