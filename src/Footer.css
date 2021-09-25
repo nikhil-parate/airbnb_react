@@ -1,0 +1,20 @@
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D3D3D3;
+    height: 35px;
+}
+.Footer-left {
+    align-items: center;
+}
+.Footer-center {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.Footer-right {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+}

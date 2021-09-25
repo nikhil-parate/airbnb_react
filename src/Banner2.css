@@ -1,0 +1,29 @@
+.banner2 {
+    background: url("https://a0.muscache.com/im/pictures/64f39605-fef0-4ef0-a0f8-caa6c6e011f2.jpg?aki_policy=large") center;
+    height : 50vh;
+    position: relative;
+}
+
+.banner__info2 {
+    color: white;
+    background-image: linear-gradient(black, brown);
+    padding-top: 25vh ;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    width: 300px
+}
+
+ .banner__info2 > .button{
+     margin-top: 2%;
+    color:black;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    background-color: white;
+    text-transform: inherit;
+}
+
+.banner__info2 > .button:hover{
+    background-color: black;
+    color: white;
+}

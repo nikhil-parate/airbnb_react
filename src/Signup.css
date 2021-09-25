@@ -1,0 +1,15 @@
+
+ .container > .app-wrapper> .form-wrapper> .submit{
+    margin-top: 2%;
+   color:purple;
+   border: 1px solid lightgray;
+   border-radius: 999px;
+   background-color: white;
+   text-transform: inherit;
+}
+
+.container{
+    align-items: center;
+    margin-bottom: 54vh;
+    margin-left: 40%;
+}

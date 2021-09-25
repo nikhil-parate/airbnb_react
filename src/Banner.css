@@ -1,0 +1,46 @@
+.banner {
+    background: url("https://skift.com/wp-content/uploads/2019/12/airbnb-plus-room-cape-town-e1575561685722.jpg") center;
+    height : 80vh;
+    position: relative;
+}
+
+.banner__info {
+    color: white;
+    background-color: rgb(41, 4, 4);
+    padding-top: 25vh ;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    width: 300px
+}
+
+ .banner__info > .button{
+     margin-top: 2%;
+    color:purple;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    background-color: white;
+    text-transform: inherit;
+}
+
+.banner__info > .button:hover{
+    background-color: purple;
+    color: white;
+}
+
+.banner__search > .search__button{
+    background-color: white;
+    text-transform: inherit;
+    color: purple;
+    font-size: 15px;
+    font-weight: 700;
+}
+.banner__search > .search__button:hover{
+    background-color: purple;
+    color: white;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
