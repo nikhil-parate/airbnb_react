@@ -21,7 +21,7 @@ function Header() {
             <SearchIcon />
           </div>
           <div className= "header__right">
-             <Button onClick={()=>history.push('/login')}>Sign In</Button>
+             <Button className = "button" onClick={()=>history.push('/login')}>Sign In</Button>
              <p>Become a host</p>
              <LanguageIcon />
              <ExpandMoreIcon />
