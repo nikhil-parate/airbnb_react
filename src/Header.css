@@ -33,3 +33,17 @@
     display: flex;
     align-items: center;
 }
+.header__right > .button{
+    margin-top: 2%;
+   color:white;
+   border: 1px solid lightgray;
+   border-radius: 999px;
+   background-color: blueviolet;
+   text-transform: inherit;
+   margin-right: 5%;
+}
+
+.header__right > .button:hover{
+  color: blueviolet;
+  background-color: white;
+}
